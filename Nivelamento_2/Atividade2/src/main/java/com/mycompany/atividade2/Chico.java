@@ -14,8 +14,8 @@ public class Chico {
         Double n2 = calculadora.nextDouble();
         
         Double INSS = n1*0.1;
-        Double IR = n1*0.2;
-        Double VT = n2*2*22;
+        Double IR = n1*0.2*22;
+        Double VT = n2*2;
         Double total = n1 - (INSS + IR + VT);
         Double Descontos = (INSS + IR + VT);
         
